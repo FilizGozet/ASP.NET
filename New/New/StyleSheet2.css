@@ -1,0 +1,140 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Amita|Patua+One|Roboto+Slab');
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Amita', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Patua One', cursive;
+    height: 100%;
+    background: url('3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 340px;
+    text-align: center;
+}
+
+
+.inner-container { /*bilgilerin ve resmin olduğu container*/
+    border-radius: 10px;
+    /*background: #b0c4de;*/
+    /*background: rgba(139,125,123,.9);*/
+    background-image: url('2.jpg');
+    border: 2px solid black;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    position: relative;
+    box-sizing: border-box;
+    padding: 16px 10px 30px 15px;
+}
+
+#DropDownList1 {
+    font-size: 13px;
+}
+
+.txt { /*dropdown ve textboxların yer aldığı sınıf*/
+    display: block;
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: black;
+    background: rgb(255,255,255);
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.lbl { /*labellara özellik verir*/
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    color: white;
+    font-size: 10px;
+
+}
+
+#DropDownList1 { /*dropdownlistin özellikleri*/
+    height: 25px;
+    width: 340px;
+    background-color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+
+#lblname{
+    margin-right:120px;
+}
+#lblsurname{
+    margin-right:110px;
+}
+#lblnumber{
+    margin-right:100px;
+}
+#lbldep {
+    margin-right:100px;
+}
+
+
+.top { /*bu üsteki seçim yeri için*/
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.bottom { /*bu alttaki butonların olduğu bölümü kapsıyor*/
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.but { /*butonların özellikleri için*/
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    color: #fff;
+    /*background: rgba(13, 66, 170,.6);*/
+    background: #303648;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    margin-top: 14px;
+    border-radius: 10px;
+}
+
+    .but:hover {
+        background: #192148;
+    }
+
+#btnmake {
+    float: right;
+}
+
+#btnback{
+    float: left;
+}
+
+.info {
+    margin-right:20px;
+    float: right;
+}
+
+.img {
+    border: 1px solid white;
+    width: 105px;
+    height: 105px;
+    border-radius: 5px;
+    margin-top: 25px;
+    
+}
